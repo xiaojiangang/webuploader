@@ -1,0 +1,47 @@
+body {
+    padding-top: 50px;
+    font-size: 16px;
+    font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+.logo {
+    position: relative;
+    padding-left: 60px;
+}
+
+.logo span {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    font-size: 2em;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+}
+
+@media (min-width: 768px) {
+  .fetature .row .col-lg-4 {
+        min-height: 250px;
+    }
+}
+
+.footer {
+    background: #212121;
+    width: 100%;
+    overflow: hidden;
+    color: #f2f2f2;
+    margin-top: 30px;
+}
+
+.footer-fixed-bottom {
+    position: fixed;
+    bottom: 0;
+}
+
+.footer a {
+    color: #f2f2f2;
+}
+
+.footer .footer-inner {
+    margin: 15px;
+}

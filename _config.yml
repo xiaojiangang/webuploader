@@ -1,0 +1,6 @@
+name: Web Uploader
+markdown: redcarpet
+pygments: true
+exclude:
+  - node_modules
+  - README.md
